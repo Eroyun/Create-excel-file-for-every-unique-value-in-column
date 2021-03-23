@@ -1,7 +1,5 @@
 import pandas
-# If you don't have pandas in your computer write "-pip install pandas" in your terminal!
 
-# Write your excel file's path before you run the code!!!!!!
 path = str(input("Write your excel file's path: "))
 path = path.replace("\\", "/")
 filename = input("Write excel file name without .xlsx: ")
